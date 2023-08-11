@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@graph-test/nestjs-lib": ["libs/nestjs-lib/src/index.ts"],
+      "@graph-test/svelte-lib": ["libs/svelte-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

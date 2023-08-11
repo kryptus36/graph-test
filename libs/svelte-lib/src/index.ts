@@ -1,0 +1,1 @@
+export {default as LibComponent} from './LibComponent.svelte';
